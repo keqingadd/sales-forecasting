@@ -1,5 +1,10 @@
 # Sales Forecasting · LSTM vs GRU 时间序列预测
 
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2ea44f)](LICENSE)
+[![GRU vs LSTM](https://img.shields.io/badge/GRU_beat_LSTM-MSE_43%2C695-success)](#结果测试集指标在反归一化后的原始量纲上计算)
+
 对 Alcohol Sales 月度销量数据，用同一套数据管线与训练流程对比 **LSTM** 与 **GRU** 两种循环网络，并输出预测曲线、误差分布与训练曲线。
 
 ## 结果（测试集，指标在反归一化后的原始量纲上计算）
